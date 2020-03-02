@@ -11,6 +11,7 @@ const sentence = {
 	lobster: `Lobsters are mermaids to scorpions.`,
 	newton: `Students generally learn calculus at about the same age as when Isaac Newton invented it.`,
 	walk: `Oh wait. I just remembered. You're boring and my legs work.`,
+	whut: `Has anyone really been far even as decided to use even go want to do look more like?`,
 }
 const randomSentence = () => {
 	let sentArr = [
@@ -26,6 +27,7 @@ const randomSentence = () => {
 		sentence.lobster,
 		sentence.newton,
 		sentence.walk,
+		sentence.whut,
 	]
 	return sentArr[Math.floor(Math.random() * sentArr.length)]
 }
